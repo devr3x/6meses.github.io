@@ -48,7 +48,7 @@ formRef.addEventListener("submit", (e) => {
   
   if (verificarContrasena(contrasena)) {
     // Si la contraseña es correcta, redirige a la página deseada
-    window.location.href = "/bien/index.html";
+    window.location.href = "bien/index.html";
   } else {
     // Opcional: muestra un mensaje de error
     alert("Contraseña incorrecta");
