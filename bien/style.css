@@ -27,7 +27,7 @@ header h1 {
 
 .content h2 {
     font-size: 2em;
-    color: #66c2c2; /* Un tono más oscuro para contraste */
+    color: #33a6a6; /* Un tono más oscuro para contraste */
     margin-bottom: 20px;
 }
 
@@ -39,5 +39,23 @@ header h1 {
 
 .content strong {
     font-size: 1.2em;
-    color: #66c2c2; /* Mismo tono que el h2 para mantener la coherencia */
+    color: #33a6a6; /* Mismo tono que el h2 para mantener la coherencia */
+}
+
+/* Animación del ramo de rosas */
+.rose-animation {
+    margin-top: 30px;
+}
+
+#roses {
+    animation: sway 4s infinite ease-in-out;
+}
+
+@keyframes sway {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(10deg);
+    }
 }
