@@ -1,68 +1,43 @@
 body {
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
-    font-family: Arial, sans-serif;
-}
-
-.container {
-    text-align: center;
-    position: relative;
-}
-
-h1 {
-    font-size: 4em;
+    background-color: #fdf3f3;
     color: #333;
+    text-align: center;
 }
 
-.face {
-    position: relative;
-    width: 200px;
-    height: 100px;
-    margin: 20px auto;
+header {
+    background-color: #ffb6c1;
+    padding: 50px;
 }
 
-.eye {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background: white;
+header h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3.5em;
+    margin: 0;
+    color: #fff;
 }
 
-.eye-l { left: 30px; }
-.eye-r { right: 30px; }
-
-.eyeball {
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    background: #333;
-    top: 12.5px;
-    left: 12.5px;
+.content {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-.hands {
-    position: relative;
-    width: 300px;
-    height: 100px;
-    margin: 20px auto;
+.content h2 {
+    font-size: 2em;
+    color: #ff6f91;
+    margin-bottom: 20px;
 }
 
-.hand {
-    position: absolute;
-    width: 80px;
-    height: 20px;
-    background: #ffd1dc;
-    border-radius: 10px;
-    bottom: 0;
-    transition: transform 0.3s;
+.content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
 }
 
-.hand-l { left: 60px; transform-origin: left bottom; }
-.hand-r { right: 60px; transform-origin: right bottom; }
+.content strong {
+    font-size: 1.2em;
+    color: #ff6f91;
+}
