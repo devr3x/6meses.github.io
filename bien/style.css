@@ -41,21 +41,3 @@ header h1 {
     font-size: 1.2em;
     color: #33a6a6; /* Mismo tono que el h2 para mantener la coherencia */
 }
-
-/* Animación del ramo de rosas */
-.rose-animation {
-    margin-top: 30px;
-}
-
-#roses {
-    animation: sway 4s infinite ease-in-out;
-}
-
-@keyframes sway {
-    0%, 100% {
-        transform: rotate(0deg);
-    }
-    50% {
-        transform: rotate(10deg);
-    }
-}
