@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: #B5FFF8;
+    background-color: #B5FFF8; /* Azul celeste */
     padding: 50px;
 }
 
@@ -27,7 +27,7 @@ header h1 {
 
 .content h2 {
     font-size: 2em;
-    color: #ff6f91;
+    color: #66c2c2; /* Un tono más oscuro para contraste */
     margin-bottom: 20px;
 }
 
@@ -39,5 +39,5 @@ header h1 {
 
 .content strong {
     font-size: 1.2em;
-    color: #B5FFF8;
+    color: #66c2c2; /* Mismo tono que el h2 para mantener la coherencia */
 }
