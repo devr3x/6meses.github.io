@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: #ffb6c1;
+    background-color: #B5FFF8;
     padding: 50px;
 }
 
@@ -39,5 +39,5 @@ header h1 {
 
 .content strong {
     font-size: 1.2em;
-    color: #ff6f91;
+    color: #B5FFF8;
 }
